@@ -1,0 +1,152 @@
+/* GOOGLE FONT */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+
+/* BOOTSTRAP ICON */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+:root {
+  --bgColor: #2a2f35;
+  --primaryColor: #8be49a;
+  --myFont: 'Montserrat', sans-serif;
+}
+
+body {
+  font-family: var(--myFont);
+  min-height: 900px;
+}
+
+/* STYLE - HOMEPAGE */
+.container-fluid {
+  margin-top: -1px;
+}
+
+.section {
+  background: var(--bgColor);
+
+}
+
+.section-title {
+  color: var(--primaryColor);
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: var(--myFont);
+}
+
+.description {
+  font-family: var(--myFont);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.skill img {
+  width: 100px;
+  object-fit: cover;
+}
+
+.more-project-button {
+  font-family: var(--myFont);
+}
+
+.btn-custom {
+  background: var(--primaryColor) !important;
+  font-weight: 500 !important;
+  font-family: var(--myFont) !important;
+}
+
+.btn-custom:hover {
+  opacity: .8;
+}
+
+/* STYLE - ABOUT */
+.about {
+  font-family: var(--myFont);
+}
+
+.about-desc::first-letter {
+  font-size: 2em;
+  color: var(--primaryColor);
+}
+
+/* STYLE - CONTACT */
+
+.detail-address i {
+  color: var(--primaryColor);
+  font-size: 1.5rem;
+}
+
+.detail-address ul li {
+  font-family: var(--myFont);
+  font-weight: 500;
+  list-style: none;
+  color: #fff;
+  line-height: 3rem;
+  font-size: 1rem;
+}
+
+.contact .svg {
+  width: 300px;
+  height: auto;
+  margin: auto;
+}
+
+.card-header {
+  font-weight: 800;
+  font-size: 1.4rem;
+}
+
+.information {
+  font-family: var(--myFont);
+  font-weight: 500;
+}
+
+.information i {
+  color: var(--primaryColor);
+  font-size: 1.5rem;
+}
+
+.contact-socmed a {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.contact-socmed a:hover {
+  color: var(--primaryColor);
+
+}
+
+.addr h6 {
+  font-family: var(--myFont);
+  font-weight: 700;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.addr span {
+  display: block;
+}
+
+.addr-item {
+  font-family: var(--myFont);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Tablet */
+@media screen and (max-width: 991.98px) {}
+
+
+/* smartphone */
+@media screen and (max-width: 767.98px) {
+  .skill img {
+    width: 115px;
+
+  }
+}

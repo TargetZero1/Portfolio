@@ -1,0 +1,33 @@
+footer span {
+  font-family: var(--myFont);
+  color: #fff;
+  font-weight: 600;
+  font-size: .8rem;
+
+}
+
+/* to top */
+
+#btn-top a {
+  color: var(--primaryColor);
+  text-decoration: none;
+  font-size: 1.8rem;
+  position: fixed;
+  bottom: 50px;
+  right: 25px;
+  z-index: 9999;
+  opacity: .5;
+}
+
+#btn-top {
+  position: fixed;
+  bottom: -100px !important;
+  right: 20px;
+  opacity: 0;
+  transition: opacity 0.3s, bottom 0.3s;
+}
+
+#btn-top.show {
+  opacity: 1;
+  bottom: 20px;
+}

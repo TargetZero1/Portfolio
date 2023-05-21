@@ -1,0 +1,13 @@
+.button {
+  background: var(--primaryColor) !important;
+  font-family: var(--myFont);
+  font-weight: 500 !important;
+  font-size: .9rem;
+  outline: 2px solid var(--primaryColor);
+  transition: .3s;
+}
+
+.button:is(:hover, :focus) {
+  outline-offset: 3px;
+  color: #333 !important;
+}

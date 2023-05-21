@@ -1,0 +1,32 @@
+.navbar-toggler:focus {
+  color: var(--primaryColor) !important;
+}
+
+.navbar-brand {
+  color: var(--primaryColor) !important;
+  font-weight: 800;
+  font-size: 2rem !important;
+  font-family: var(--myFont);
+}
+
+.navbar-nav a {
+  font-family: var(--myFont);
+  font-weight: 600;
+  color: #fff;
+}
+
+.navbar-nav a:hover {
+  color: var(--primaryColor) !important;
+  cursor: pointer;
+}
+
+nav {
+  transition: .5s;
+  padding: 1.2rem 0 !important;
+}
+
+nav.active {
+  box-shadow: 0 .5rem 2rem rgba(28, 167, 81, 0.1);
+  border-bottom: 2px solid #656565;
+  padding: .8rem 0 !important;
+}

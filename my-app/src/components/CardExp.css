@@ -1,0 +1,36 @@
+.exp-wrapper {
+  padding: 1rem;
+  font-family: var(--myFont);
+  text-align: center;
+  width: 250px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: .3s;
+}
+
+.exp-wrapper:hover {
+  box-shadow: 0 .7rem 1.7rem rgba(28, 167, 81, 0.1);
+  margin-top: -.2rem;
+}
+
+.exp-wrapper img {
+  width: 50%;
+}
+
+.exp-title {
+  margin-top: .6rem;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.exp-job {
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.periode {
+  font-size: .8rem;
+}

@@ -1,0 +1,125 @@
+.jumbotron {
+  min-height: 100vh;
+  font-family: var(--myFont);
+  padding-top: 3.5rem;
+}
+
+.jumbotron .sayHi {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.jumbotron .myName {
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+.jumbotron .title {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.jumbotron .title-2 {
+  color: var(--primaryColor);
+}
+
+.social-media {
+  margin-top: 1.7rem;
+}
+
+.social-media i {
+  color: var(--primaryColor);
+  font-size: 1.8rem;
+  transition: .3s;
+}
+
+.social-media a i:hover {
+  color: #fff;
+
+}
+
+.fotoProfile {
+  width: 380px;
+  height: 380px;
+  margin: auto;
+}
+
+.fotoProfile img {
+  width: 100%;
+  height: auto;
+}
+
+.go-down-wrapper {
+  position: relative;
+  top: -70px;
+  left: 0;
+}
+
+.go-down {
+  color: #bbb;
+  font-size: 2rem;
+  position: absolute;
+}
+
+/* scroll down animation */
+.upDown {
+  animation-name: upDown;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes upDown {
+  0% {
+    transform: translate(0px, 0px);
+  }
+
+  50% {
+    transform: translate(0px, -10px);
+  }
+
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+
+
+
+/* Tablet */
+@media screen and (max-width: 991.98px) {
+  .jumbotron .sayHi {
+    font-size: 1.5rem;
+    padding-top: 5rem;
+  }
+
+  .jumbotron .myName {
+    font-size: 3rem;
+  }
+
+  .fotoProfile {
+    width: 100%;
+  }
+}
+
+
+/* smartphone */
+@media screen and (max-width: 767.98px) {
+
+  .jumbotron .sayHi {
+    font-size: 2rem;
+    padding-top: 6.5rem;
+  }
+
+  .jumbotron .myName {
+    font-size: 3.1rem;
+  }
+
+  .jumbotron .title {
+    font-size: 1.2rem;
+  }
+
+  .fotoProfile {
+    width: 75%;
+  }
+}

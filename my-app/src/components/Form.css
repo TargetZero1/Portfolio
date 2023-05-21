@@ -1,0 +1,9 @@
+input.form-control:focus {
+  outline-color: #8be49a;
+  box-shadow: 0 0 0 0.2rem var(--primaryColor);
+}
+
+textarea.form-control:focus {
+  outline-color: #8be49a;
+  box-shadow: 0 0 0 0.2rem var(--primaryColor);
+}
