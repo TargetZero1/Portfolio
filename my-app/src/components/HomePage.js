@@ -55,11 +55,11 @@ const HomePage = () => {
         <div className="container">
           <div className="row">
             <div className="col skill d-flex justify-content-around flex-wrap py-5">
-              <img src={Unity} />
-              <img src={Lua} />
-              <img src={Py} />
-              <img src={C} />
-              <img src={Roblox} />
+                            <Skill image={Unity} alt="Unity" />
+                            <Skill image={Lua} alt="Lua" />
+                            <Skill image={Py} alt="Python" />
+                            <Skill image={C} alt="C" />
+                            <Skill image={Roblox} alt="Roblox" />
             </div>
           </div>
         </div>
