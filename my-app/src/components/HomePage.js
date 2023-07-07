@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router";
+import { useNavigate } from "react-router-dom";
 import Button from "./Button";
 import Jumbotron from "./Jumbotron";
 import Py from "../img/py.png";
@@ -14,15 +14,17 @@ import Project4 from "../img/project/4.png";
 import Project5 from "../img/project/5.png";
 import Project6 from "../img/project/6.png";
 import Form from "./Form";
+import Skill from "./Skill";
 
 const HomePage = () => {
-  const Navigate = useNavigate();
+  const navigate = useNavigate();
+  
   return (
     <>
       <Jumbotron />
       <div className="container-fluid text-light section">
         <div className="container">
-          <div className="row ">
+          <div className="row">
             <div className="col pt-5 pb-3">
               <span className="section-title">INTRODUCTION</span>
             </div>
@@ -55,11 +57,11 @@ const HomePage = () => {
         <div className="container">
           <div className="row">
             <div className="col skill d-flex justify-content-around flex-wrap py-5">
-                 <Skill image={Unity} alt="Unity" />
-                 <Skill image={Lua} alt="Lua" />
-                 <Skill image={Py} alt="Python" />
-                 <Skill image={C} alt="C" />
-                 <Skill image={Roblox} alt="Roblox" />
+              <Skill image={Unity} alt="Unity" />
+              <Skill image={Lua} alt="Lua" />
+              <Skill image={Py} alt="Python" />
+              <Skill image={C} alt="C" />
+              <Skill image={Roblox} alt="Roblox" />
             </div>
           </div>
         </div>
@@ -67,7 +69,7 @@ const HomePage = () => {
 
       <div className="container-fluid text-light section">
         <div className="container">
-          <div className="row ">
+          <div className="row">
             <div className="col pt-5 pb-3">
               <span className="section-title">PORTFOLIO</span>
             </div>
@@ -94,7 +96,7 @@ const HomePage = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col mx-auto text-center more-project-button py-5" onClick={() => Navigate("/Portfolio")}>
+            <div className="col mx-auto text-center more-project-button py-5" onClick={() => navigate("/Portfolio")}>
               <Button name="More Project" icon="bi bi-grid-3x3-gap-fill" />
             </div>
           </div>
@@ -103,7 +105,7 @@ const HomePage = () => {
 
       <div className="container-fluid bg-dark">
         <div className="container">
-          <div className="row ">
+          <div className="row">
             <div className="col pt-5 pb-3">
               <span className="section-title">CONTACT ME</span>
             </div>
