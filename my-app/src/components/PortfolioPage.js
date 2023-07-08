@@ -122,46 +122,46 @@ const PortfolioPage = () => {
 
           <div className="row pb-5 d-flex justify-content-center gallery">
             <div className="col-lg-3 col-md-6 col-6 img-wrapper">
-              <img src={G4} alt="Gallery Image 4" className="w-100" />
+              <img src={G4} className="w-100" />
             </div>
             <div className="col-lg-3 col-md-6 col-6 img-wrapper">
-              <img src={G5} alt="Gallery Image 5" className="w-100" />
+              <img src={G5} className="w-100" />
             </div>
             <div className="col-lg-3 col-md-6 col-6 img-wrapper">
-              <img src={G6} alt="Gallery Image 6" className="w-100" />
+              <img src={G6} className="w-100" />
             </div>
             <div className="col-lg-3 col-md-6 col-6 img-wrapper">
-              <img src={G9} alt="Gallery Image 9" className="w-100" />
+              <img src={G9} className="w-100" />
             </div>
             <div className="col-lg-3 col-md-6 col-6 img-wrapper">
-              <img src={G1} alt="Gallery Image 1" className="w-100" />
-            </div>
-            <div className="col-lg-3col-md-6 col-6 img-wrapper">
-              <img src={G2} alt="Gallery Image 2" className="w-100" />
+              <img src={G1} className="w-100" />
             </div>
             <div className="col-lg-3 col-md-6 col-6 img-wrapper">
-              <img src={G3} alt="Gallery Image 3" className="w-100" />
+              <img src={G2} className="w-100" />
             </div>
             <div className="col-lg-3 col-md-6 col-6 img-wrapper">
-              <img src={G7} alt="Gallery Image 7" className="w-100" />
+              <img src={G3} className="w-100" />
             </div>
             <div className="col-lg-3 col-md-6 col-6 img-wrapper">
-              <img src={G8} alt="Gallery Image 8" className="w-100" />
+              <img src={G7} className="w-100" />
             </div>
             <div className="col-lg-3 col-md-6 col-6 img-wrapper">
-              <img src={G10} alt="Gallery Image 10" className="w-100" />
+              <img src={G8} className="w-100" />
             </div>
             <div className="col-lg-3 col-md-6 col-6 img-wrapper">
-              <img src={G11} alt="Gallery Image 11" className="w-100" />
+              <img src={G10} className="w-100" />
             </div>
             <div className="col-lg-3 col-md-6 col-6 img-wrapper">
-              <img src={G12} alt="Gallery Image 12" className="w-100" />
+              <img src={G11} className="w-100" />
             </div>
             <div className="col-lg-3 col-md-6 col-6 img-wrapper">
-              <img src={G13} alt="Gallery Image 13" className="w-100" />
+              <img src={G12} className="w-100" />
             </div>
             <div className="col-lg-3 col-md-6 col-6 img-wrapper">
-              <img src={G14} alt="Gallery Image 14" className="w-100" />
+              <img src={G13} className="w-100" />
+            </div>
+            <div className="col-lg-3 col-md-6 col-6 img-wrapper">
+              <img src={G14} className="w-100" />
             </div>
           </div>
         </div>
