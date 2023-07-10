@@ -55,10 +55,10 @@ const AboutPage = () => {
               <CardExp img={Exp2} title="Roblox" job="Associate Programmer" period="August 2020 - Present" />
             </div>
             <div className="col-lg-3 col-md-6 py-2">
-              <CardExp img={Exp3} title="Feerik Games" job="Programmer" period="Oct 2022 - Feb 2023" />
+              <CardExp img={Exp3} title="Feerik Games" job="Programmer" period="Dec 2022 - March 2023" />
             </div>
             <div className="col-lg-3 col-md-6 py-2">
-              <CardExp img={Exp4} title="Rapid Games Studio" job="Game Programmer" period="Oct 2022 - Feb 2023" />
+              <CardExp img={Exp4} title="Rapid Games Studio" job="Game Programmer" period="Aug 2022 - Nov 2022" />
             </div>
           </div>
 
