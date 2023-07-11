@@ -70,7 +70,7 @@ const AboutPage = () => {
 
           <div className="row pb-5">
             <div className="col-lg-3 col-md-6 mb-5 mt-2">
-              <CardExp img={Smk} title="SMKN 1 Jenangan Ponorogo" job="Software Engineering" period="2021 - 2024" />
+              <CardExp img={Smk} title="SMKN 1 Jenangan Ponorogo" job="Computer Software Engineering" period="2021 - 2024" />
             </div>
           </div>
         </div>
